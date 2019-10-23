@@ -1,0 +1,87 @@
+/*Listes de produits et details*/
+
+
+.fa-shopping-cart{
+	color:  #2F4F4F;	
+}
+.fonctions {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.products { /* container */
+    padding: 40px;
+    margin-top: 30px;
+}
+.blocProd { /* bloc produit individuel */
+    padding: 10px
+}
+.prod {
+    background-color: white;
+}
+.prod:hover { /* au survol */
+    opacity: 0.8;
+    box-shadow: 0 0 2px;
+}
+.card  { /* affichage de l'entête produit */
+    display: inline;
+    margin: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize; /* 1eres lettres en majuscule*/
+    background: url('../images/header/fond.png') repeat-y fixed;
+    color: white;
+    font-size: 1.1rem;
+  
+}
+.card-title
+{
+	color: white; 
+	font-size:25px;
+		font-weight: bold;
+	
+}
+.description
+{
+	
+	color: #FF8C00;
+	font-weight: bold;
+		text-align : justify;
+	
+}
+.rouge, .vert {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.vert {
+    color: green;
+}
+.rouge {
+    color: red;
+}
+.prix
+{
+	color: red;
+		font-weight: bold;
+font-size: 2em;
+
+}
+/* Style detail_produits*/
+.prix_detail
+{
+	font-size: 2em;
+	color: red;
+	font-weight: bold;
+}
+.description_detail
+{
+	font-size: 30px;
+	
+ 
+	
+	
+	
+	
+}
